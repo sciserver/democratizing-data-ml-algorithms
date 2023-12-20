@@ -1,0 +1,14 @@
+{
+    "accum_for": 1,
+    "max_cores": 24,
+    "max_seq_len": 128,
+    "use_amp": true,
+    "pretrained_model":"roberta-base",
+    "learning_rate": 5e-6,
+    "num_epochs": 3,
+    "optimizer": "torch.optim.Adam",
+    "model_path": "baseline",
+    "batch_size": 16,
+    "save_model": true,
+    "balance_labels": false
+}

@@ -1,0 +1,22 @@
+{
+    "accum_for": 1,
+    "max_cores": 24,
+    "max_seq_len": 128,
+    "use_amp": true,
+    "model_path": "baseline",
+    "batch_size": 16,
+    "save_model": false,
+
+    "epochs": 5,
+    "balance_labels": true,
+    "model_tokenizer_name": "distilbert-base-cased",
+    "tokenizer_kwargs": {
+        "do_lower_case": false
+    },
+    "model_kwargs": {
+    },
+    "optimizer": "torch.optim.Adam",
+    "optimizer_kwargs": {
+        "lr": 1e-5
+    }
+}
